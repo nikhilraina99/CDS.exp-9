@@ -16,7 +16,7 @@ Pointers are symbolic representations of memory addresses. They enable programs 
 
 ## Program Codes 
 
-```
+```javascript
 
 // Nikhil 
 // 23070123093
@@ -38,7 +38,7 @@ int main() {
     return 0;
 }
 ```
-```
+```javascript
 // Nikhil
 // 23070123093
 // experiment 9
