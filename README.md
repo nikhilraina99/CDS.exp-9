@@ -20,7 +20,7 @@ Pointers are symbolic representations of memory addresses. They enable programs 
 
 // Nikhil 
 // 23070123093
-// experiment 9
+// experiment 9a
 #include <iostream>
 using namespace std;
 
@@ -41,7 +41,7 @@ int main() {
 ```javascript
 // Nikhil
 // 23070123093
-// experiment 9
+// experiment 9b
 #include <iostream>
 using namespace std;
 int main() {
@@ -58,3 +58,73 @@ int main() {
     return 0;
 }
 ```
+```javascript
+// Nikhil 
+// 23070123093
+// experiment 9c
+#include<iostream>
+using namespace std;
+int main()
+{
+    int *ptr;
+    int a[5] = { 1,2,4,8,9};
+    ptr = &a[0];
+    int i;
+    for(i=0 ; i<5 ; i++)
+    {
+        cout << "Element "<< i+1 <<" "<<"="<<" "<<*(a+i) << endl;
+        ptr ++;
+
+    }
+}
+```
+```javascript
+//Nikhil
+//23070123093
+//experiment 9d
+#include <iostream>
+using namespace std;
+int main()
+{
+    float a = 'A';
+    float *ptr;
+    ptr=&a;
+     cout<< "The value pointed by *ptr is: "<<*ptr << endl;
+    cout << "The value in b is: " <<a << endl;
+    cout << "The value in pointer variable ptr is: "<<(void*)ptr << endl;
+
+    cout << "The address of variable b is: "<<&a << endl;
+    ptr ++;
+    cout<< "After increment the value in pointer variable ptr is: " << (void*)ptr << endl;
+}
+```
+```javascript
+// Nikhil 
+// 23070123093
+// experiment 9e
+#include <iostream>
+using namespace std;
+int main()
+{
+    int a = 50;
+    int *ptr;
+    ptr=&a;
+   cout<< "The value pointed by *ptr is: "<<*ptr << endl;
+    cout << "The value in b is: " <<a << endl;
+    cout << "The value in pointer variable ptr is: "<<(void*)ptr << endl;
+
+    cout << "The address of variable b is: "<<&a << endl;
+    ptr ++;
+    cout<< "After increment the value in pointer variable ptr is: " << (void*)ptr << endl;
+}
+```
+## Outputs:
+
+
+
+
+
+
+
+
+
