@@ -119,6 +119,31 @@ int main()
 }
 ```
 ## Outputs:
+1.Character Pointer-
+
+![Screenshot 2024-09-02 093329](https://github.com/user-attachments/assets/f34c08cd-566d-4ff6-bc39-40615fc70f01)
+
+2.Pointer Access Array Elements-
+
+![Screenshot 2024-09-02 093410](https://github.com/user-attachments/assets/9e50d683-d18b-4334-9c4d-d76de3522167)
+
+3.Float Pointer-
+
+![Screenshot 2024-09-02 093432](https://github.com/user-attachments/assets/31b3ae4c-e641-49c8-b327-d34b093635ff)
+
+4.Integer Pointer-
+
+![Screenshot 2024-09-02 093540](https://github.com/user-attachments/assets/52352ac0-77b3-413d-9103-b6db89fb9eb4)
+
+5.No Pointer-
+
+![Screenshot 2024-09-02 093457](https://github.com/user-attachments/assets/4e417f9a-b627-4c31-8dcf-0dc800960ec2)
+
+## Conclusion
+- We learned how to initialize pointers of various data types.
+- We explored how to access array elements using pointers.
+- We also examined how to access array elements without using pointer variables.
+
 
 
 
